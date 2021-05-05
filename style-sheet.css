@@ -1,0 +1,223 @@
+/* common elements */
+
+* {
+    box-sizing: border-box;
+}
+
+    /* nav bar */
+    .navigation{
+        text-align: center;
+        padding-top:0px;
+    }
+
+    .menu-items{
+        display: inline-flex;
+        list-style: none;
+        padding-left: 0px;
+    }
+
+    .menu-item{
+        font-size: 18px;
+        padding:20px;
+        color: floralwhite;
+        text-align: center;
+    }
+
+        /* link decoration */
+        a{
+            color:floralwhite;
+            padding: 0px;   
+        }
+
+        a:link, a:visited, a.active {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            color:rgb(132, 187, 180);
+        }
+        
+
+    /* body */
+    body {
+        background-color: rgb(29, 29, 36);
+        font-family: "Sansita Swashed", cursive;
+        color:rgb(132, 187, 180);
+        padding-left:75px;
+        padding-right:75px;
+        margin-bottom:20px;
+    }
+        /* headings */
+        h1{
+            color:floralwhite;
+            font-size: 80px;
+            text-align: center;
+            margin-bottom: 0px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        h2{
+           text-align: center;
+        }
+        
+        /* paragraphs */
+        p{
+            color: floralwhite;
+            font-size: 18px;
+            text-align: left;
+            font-family:'Lato', sans-serif;
+        }
+
+/* home */
+.bio {
+    margin-left:145px;
+    margin-right:145px;
+    padding-top:0px;
+    padding-bottom:5px;
+    text-align:center;
+    margin-top:0;
+}
+
+#aboutMe {
+    padding-bottom:15px;
+    margin-top:50px;
+    margin-bottom:0px;
+}
+
+
+    /* image carousel */
+
+        /* slides */
+        .slideshow-container {
+            width: 600px;
+            max-width:100%;
+            position: relative;
+            margin: auto;
+            margin-top: 30px;
+        }
+
+        .mySlides {
+            display:none;
+        }
+        
+        /* buttons */
+        .prev, .next {
+            cursor: pointer;
+            position: absolute;
+            top: 50%;
+            width: auto;
+            margin-top: -22px;
+            padding: 16px;
+            color: floralwhite;
+            font-weight: bold;
+            font-size: 30px;
+            transition: 0.6s ease;
+            user-select: none;
+        }
+
+        .next {
+            right: 0;
+            border-radius: 5px 0 0 5px;
+        }
+
+        .prev {
+            left: 0;
+            border-radius: 0 5px 5px 0;
+        }
+
+        .prev:hover, .next:hover {
+            background-color: rgba(255, 250, 240, 0.603);
+            text-decoration: none;
+            color: floralwhite;
+        }
+        
+        /* caption */
+        .caption {
+            color:floralwhite;
+            background-color:rgba(29, 29, 36, 0.5);
+            font-size: 25px;
+            font-family:'Lato', sans-serif;
+            padding: 8px;
+            position:absolute;
+            bottom: 0px;
+            width: 100%;
+            text-align: center;
+        }
+
+        /* animation */
+        .fade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 1.5s;
+            animation-name: fade;
+            animation-duration: 1.5s;
+        }
+
+        @-webkit-keyframes fade{
+            from {opacity: .4}
+            to {opacity: .1}
+        }
+
+        @keyframes fade {
+            from {opacity: .4}
+            to {opacity: .1}
+        }
+
+
+
+/* experience */
+    /* photos */
+    .blogPhoto1, .blogPhoto2 {
+        width:425px;
+    }
+    .blogPhoto1 {
+        margin-left: 10px;
+    }
+    .blogPhoto2 {
+        margin-right: 10px;
+    }
+
+    /* blog post */
+    .blogPost {
+        margin-bottom:50px;
+    }
+
+    /* hide text after "..." */
+    #expand, #expand2 {
+        display:none;}
+
+    /* button graphics */
+    #readMoreBtn, #readMoreBtn2 {
+        border-radius: 5px;
+        border-color: floralwhite;
+        background-color:rgb(29, 29, 36);
+        font-size: 18px;
+        color: floralwhite;
+        margin-bottom:30px;
+        margin-right:75px;
+        margin-top:0px;
+    }
+
+    #readMoreBtn:hover, #readMoreBtn2:hover{ 
+        color:floralwhite;
+        background-color:rgb(132, 187, 180);
+        border-color: rgb(132, 187, 180);
+    }
+
+/* contact */
+.contact-info{
+    text-align: left;
+}
+
+.icon{
+    width:40px;
+}
+
+table{
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+td {
+    padding:20px;
+}
